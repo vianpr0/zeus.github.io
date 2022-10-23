@@ -1,5 +1,5 @@
 .logoo {
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .tikusPa {
@@ -62,7 +62,15 @@
     height: 60px;
     cursor: pointer;
 }
-
+.tikusn {
+    width: 300px;
+    border-radius: 9px;
+    background-color: rgb(249, 247, 252);
+    height: 70px;
+    color: azure;
+    font-size: large;
+    margin-left: 450px;
+}
 
 .someo {
     cursor: pointer;
