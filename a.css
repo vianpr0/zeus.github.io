@@ -1,0 +1,199 @@
+body {
+    margin: auto;
+    padding-top: 20px;
+    width: 1200px;
+    height: 600px;
+   
+    }
+
+
+.bigMouse{
+    background-image: url("./assets/bg.png");
+    width: 1200px;
+    height: 600px;
+    border-radius: 40px;
+    box-shadow: 10px 10px #010f04;
+   
+}
+
+#page1 {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   
+}
+#page2 {
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    display: none;
+   
+}
+
+#page1 h1 {
+    color: rgb(52, 11, 236);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 2px rgb(243, 243, 245);
+text-stroke: 2px rgb(240, 240, 245);
+ 
+}
+
+#page1 button {
+    color: rgb(3, 109, 44);
+    background-color: yellow;
+    font-weight: ;
+}
+#page2 button {
+    color: rgb(3, 109, 44);
+    background-color: yellow;
+    font-weight: ;
+}
+
+
+
+
+#page2 h1 {
+    color: rgb(52, 11, 236);
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 2px rgb(243, 243, 245);
+text-stroke: 2px rgb(240, 240, 245);
+ 
+}
+
+p {
+ color: black;
+}
+
+
+
+button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: green;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.jtikus {
+    padding-top: 20px;
+}
+.tikusP {
+    padding-top: 20px;
+    
+}
+.sedangL {
+    padding-top: 20px;
+}
+.sulitL {
+    padding-top: 20px;
+    
+}
+
+
+#pilihTikus {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    display: none;
+   
+}
+
+
+#page2 .backL {
+    padding: 50px;
+}
+
+.backL{
+    padding: 20px;
+}
+
+#htikus {
+   
+    margin: auto;
+    width: 1200px;
+    height: 600px;
+    padding: 20px;
+    display: none;
+    color: white;
+   
+
+}
+#htikus img{
+    width: 100px;
+}
+
+.bayang {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.grid-container {
+    width: 800px;
+    height: 400px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 300px 300px ;
+    background-color: #0fec08;
+    padding: 10px;
+    margin-left: 200px;
+    text-align: center;
+    justify-content: center;
+    row-gap: 10px;
+    border-radius: 20px;
+    opacity: 1.5;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .some {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 300px;
+  }
+.grid-containera {
+    width: 800px;
+    height: 400px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 300px 300px ;
+    background-color: #0fec08;
+    padding: 10px;
+    margin-left: 200px;
+    text-align: center;
+    justify-content: center;
+    row-gap: 10px;
+    border-radius: 20px;
+    opacity: 1.5;
+  }
+  
+  .grid-itema {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .somea {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 300px;
+  }
+
+  

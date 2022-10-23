@@ -1,0 +1,74 @@
+.logoo {
+    padding-top: 80px;
+}
+
+.tikusPa {
+    float: left;
+    margin-left: 20px;
+}
+
+
+
+.menugrid {
+  
+    display: grid;
+    width: 1000px;
+    height: 100px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 200px 200px 200px 200px;
+    align-items: center;
+    padding: 10px;
+    margin-left: 90px;
+    text-align: center;
+    justify-content: center;
+    row-gap: 10px;
+    border-radius: 20px;
+    opacity: 1.5;
+}
+#timee {
+    display: grid;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 100px 100px;
+    align-items: center;
+    padding: 0px;
+    margin-left: 150px;
+    text-align: center;
+    justify-content: center;
+    row-gap: 0px;
+    border-radius: 20px;
+    opacity: 1.5;
+}
+
+.menugrid-a {   
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menugrid-a img{
+    width: 100px;
+    height: 100px;
+}
+.menugrid-ap img{
+    width: 219px;
+    height: 60px;
+    cursor: pointer;
+}
+.menugrid-ap{
+    width: 219px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+.someo {
+    cursor: pointer;
+}
+
+.grid-item::after{
+    image-orientation: flip;
+    
+}
