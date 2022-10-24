@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="x.css">
+    <link rel="stylesheet" href="game.css">
+    <title>BIG MOOUSEE</title>
+</head>
+<body>
+
+    <div class="bigMouse">
+    <div id="page1">
+       <div class="logoo"><img src="./assets/logo2.png"></div>
+        <h1>BIG MOUSE</h1>
+        <div class="menuUt">
+        <div class="mulaiG">
+        <button onclick="return tampiL('page2','page1');">MULAI</button>
+    </div>
+        <div class="jtikus">
+        <button onclick="return tampiL('pilihTikus','page1');">PILIH TILUS</button>
+    </div>
+        <div class="tikusP">
+        <button onclick="return tampiL('htikus','page1');">JENIS TIKUS</button>
+    </div>
+        <div class="tikusn">
+            <p> note : Jika bermain di smartphone gunakan mode Landscape </p>
+    </div>
+      
+        
+</div>
+        
+        </div>
+        
+   
+    <div id="page2">
+        <h1>LEVEL</h1>
+        <div class="mudahL">
+        <button onclick="return tampiL('halamanGame','page2');">SULIT</button>
+    </div>
+        <div class="sedangL">
+        <button onclick="return tampiL('halamanGame','page2');">SEDANG</button>
+    </div>
+        <div class="sulitL">
+        <button onclick="return tampiL('halamanGame','page2');">SULIT</button>
+    </div>
+    <div class="menugrid-a">
+        <img onclick="return tampiL('page1','page2');" src="img/bl.png" alt="">
+    </div>
+      
+    </div>
+
+    <div id="pilihTikus">
+        <div class="somea">
+            <div class="some1a">
+                <img onclick="return tampiL('page1','pilihTikus');" src="assets/Homea.png" alt="">
+            </div>
+            <div class="some2a"><h1>JENIS TIKUS</h1></div>
+        </div>
+        <div class="grid-containera">
+            <div class="grid-itema">
+                <img onclick="return tampiL('halamanGame','pilihTikus');" src="assets/mencit.png" alt="">
+            </div>
+            <div class="grid-itema">
+                <img onclick="return tampiL('halamanGame','pilihTikus');" src="assets/tikus got.png" alt="">
+            </div>
+            <div class="grid-itema">
+                <img onclick="return tampiL('halamanGame','pilihTikus');" src="assets/tikus sawah.png  " alt="">
+            </div>
+            <div class="grid-itema">
+                <img onclick="return tampiL('halamanGame','pilihTikus');" src="assets/tikus rumah.png" alt="">
+            </div>
+
+          </div>
+       
+
+        
+    </div>
+    <div id="htikus">
+        
+            <div class="some">
+                <div class="some1">
+                    <img onclick="return tampiL('page1','htikus');" src="assets/Homea.png" alt="">
+                </div>
+                <div class="some2"><h1>BELAJAR TIKUS</h1></div>
+                
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="assets/mencit.png" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="assets/mencit.png" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="assets/mencit.png" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="assets/mencit.png" alt="">
+                </div>
+
+              </div>
+           
+    
+    </div>
+
+    <div id="halamanGame">
+        <div class="menugrid">
+            <div class="menugrid-a">           
+        <img onclick="laguu();" src="/img/music.png" alt="">
+    </div>
+        <div class="menugrid-ap">
+            <img  src="img/pl.png" onclick="mulai()" alt="">
+    </div>
+    <div class="menugrid-a">
+        <h2 id="countdown">10</h2>
+</div>
+    <div class="menugrid-a">
+        <img onclick="return tampiL('page2','halamanGame');" src="img/bl.png" alt="">
+    </div>
+    
+</div>      
+    <div id="timee">
+        <h2 class="puapan-skor">0</h2>
+        
+    </div>
+        
+      
+        <div class="container">
+          <div class="tanah">
+            <div class="tikus"></div>
+          </div>
+          <div class="tanah">
+            <div class="tikus"></div>
+          </div>
+          <div class="tanah">
+            <div class="tikus"></div>
+          </div>
+          <div class="tanah">
+            <div class="tikus"></div>
+          </div>
+          <div class="tanah">
+            <div class="tikus"></div>
+          </div>
+          <div class="tanah">
+            <div class="tikus"></div>
+          </div>
+        </div>
+       
+
+</div>
+
+<audio src="audio/Pop.mp3" type="audio/mpeg" id="pop">
+<audio src="audio/a.mp3" type="audio/mpeg" id="Lagu">
+  </audio>
+<script src="a.js"></script>
+<script src="game.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
