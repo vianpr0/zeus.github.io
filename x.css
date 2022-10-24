@@ -39,6 +39,7 @@
     row-gap: 0px;
     border-radius: 20px;
     opacity: 1.5;
+    color: blue;
 }
 
 .menugrid-a {   
@@ -46,6 +47,7 @@
     font-size: 10px;
     text-align: center;
     cursor: pointer;
+    color: green;
 }
 
 .menugrid-a img{
